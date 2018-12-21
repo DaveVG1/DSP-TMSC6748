@@ -3,10 +3,10 @@
 
 #include "L138_LCDK_aic3106_init.h"
 
-  uint32_t sampleIn; // Muestra completa entrada
-  int16_t lSampleIn; // Canal izquierdo entrada
-  int16_t rSampleIn; // Canal derecho entrada
-  uint32_t sampleOut; // Muestra completa salida
+  uint32_t sampleIn; // Full input sample
+  int16_t lSampleIn; // Left input channel
+  int16_t rSampleIn; // Right input channgel
+  uint32_t sampleOut; // Full output sample
 
 interrupt void interrupt4(void)  // interrupt service routine
 {
